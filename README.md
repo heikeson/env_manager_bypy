@@ -49,14 +49,15 @@
 
 ```
 envdev/
+├── src/                 # 源代码目录
+│   ├── env_manager.py   # 环境变量管理核心模块
+│   ├── security.py      # 权限验证模块
+│   ├── import_export.py # 导入导出模块
+│   ├── logger.py        # 日志记录模块
+│   └── gui.py           # 用户界面模块
 ├── docs/                # 文档目录
 │   └── 环境变量管理器/    # 项目文档
 ├── logs/                # 日志目录
-├── env_manager.py       # 环境变量管理核心模块
-├── security.py          # 权限验证模块
-├── import_export.py     # 导入导出模块
-├── logger.py            # 日志记录模块
-├── gui.py               # 用户界面模块
 ├── main.py              # 主入口文件
 ├── .gitignore           # Git忽略文件
 └── README.md            # 项目说明文档

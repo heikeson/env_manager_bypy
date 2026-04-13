@@ -3,7 +3,7 @@
 环境变量管理器主入口文件
 """
 
-from gui import EnvironmentManagerGUI
+from src.gui import EnvironmentManagerGUI
 import wx
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 import json
 import os
-from env_manager import EnvironmentVariableManager
-from logger import logger
+from src.env_manager import EnvironmentVariableManager
+from src.logger import logger
 
 class ImportExportManager:
     """

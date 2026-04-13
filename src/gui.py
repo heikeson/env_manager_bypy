@@ -1,9 +1,9 @@
 import wx
 import os
-from env_manager import EnvironmentVariableManager
-from security import SecurityManager
-from import_export import ImportExportManager
-from logger import logger
+from src.env_manager import EnvironmentVariableManager
+from src.security import SecurityManager
+from src.import_export import ImportExportManager
+from src.logger import logger
 
 class EnvironmentManagerGUI(wx.Frame):
     """
