@@ -21,8 +21,8 @@
 
 1. 克隆仓库：
    ```bash
-   git clone <repository-url>
-   cd 环境变量管理器
+   git clone https://github.com/heikeson/env_manager_bypy.git
+   cd env_manager_bypy
    ```
 
 2. 安装依赖：
