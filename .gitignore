@@ -13,6 +13,7 @@ logs/
 # IDE
 .vscode/
 .idea/
+.trae/
 
 # Windows
 Thumbs.db
